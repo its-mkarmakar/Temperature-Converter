@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    background-color: #eeeeee;
+    display: flex;
+}
+
+.temperature-converter {
+    width: 450px;
+    margin: auto;
+    background-color: #3F3B6C;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 24px;
+    padding-top: 5px;
+    margin-bottom: 50px;
+    color: #ffffff;
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+label {
+    font-size: 14px;
+    color: #ffffff;
+    margin-bottom: 5px;
+}
+
+#exchange {
+    height: 20px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+    margin-left: 190px;
+}
+
+.formula {
+    color: #26fc05;
+    font-size: 12px;
+    padding-left: 220px;
+}
+
+footer {
+    padding: 10px;
+    position: fixed;
+    text-align: center;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    color: #000;
+}
+
+footer a {
+    color: #000;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .temperature-converter {
+        width: 350px;
+    }
+
+    #exchange {
+        margin-left: 142px;
+    }
+
+}
